@@ -1,0 +1,105 @@
+
+.dices{
+    color: rgb(251, 255, 23);
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+    border-radius: auto;
+    
+}
+
+.headings{
+    background-color: rgb(30, 111, 30);
+    padding: 20px;
+    height: 40px;
+    margin: -10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits{
+    color: white;
+    column-count: 5;
+    column-fill: balance;
+    border: solid black 2px;
+    background-color: rgb(24, 94, 27);
+    margin: 9px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.dices-computer-player{
+    column-count: 2;
+}
+
+.dices-player{
+    color: rgb(251, 255, 23);
+    column-count: 2;
+   
+}
+
+.message{
+    color: rgb(250, 250, 250);
+    column-count: 3;
+    column-fill: balance;
+}
+
+.message-box{
+    /* background-color: rgb(103, 76, 39); */
+    border: 5px solid rgb(19, 109, 34);
+    background-image: url("https://th.bing.com/th/id/R.01f2fce15461365c59981176ece3791d?rik=419VTrkCanTYrA&pid=ImgRaw&r=0");
+    padding: 50px;
+}
+
+
+.dice{
+    font-size: 64pt;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+button{
+    width: 120px;
+    height: 60px;
+    
+    color: rgb(236, 236, 236);
+    background-color: rgb(19, 82, 16);
+    border-radius: 30px;
+
+}
+
+body {
+    background-image: url("https://png.pngtree.com/background/20231018/original/pngtree-detailed-view-of-a-blackjack-table-featuring-chips-and-cards-in-picture-image_5595985.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.title{
+    background-color: rgb(18, 100, 18);
+    background-size: 800% 800%;
+    height: 40px;
+    padding: 50px;
+    margin: -50px;
+    text-decoration-line: underline;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border: 10px solid white;
+}
+
+.controls{
+    /* background-color: aqua; */
+    width: 350px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+/* .message.2{
+    border: 10px;
+    background-color: white;
+    background-image: url("https://th.bing.com/th/id/R.01f2fce15461365c59981176ece3791d?rik=419VTrkCanTYrA&pid=ImgRaw&r=0")
+} */
