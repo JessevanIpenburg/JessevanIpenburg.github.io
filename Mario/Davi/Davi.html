@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiggler's Way Out</title>
+    <link rel="stylesheet" href="../Davi/css/Davi.css">
+</head>
+
+<body>
+    <h1>Snake Game
+        <div class="geeks">A Wiggler's Way Out</div>
+    </h1>
+    <button class="nav-button" onclick="window.location.href='/Voorpagina!/voorpagina.html'">
+        Startpagina
+    </button>
+
+    <div id="score-board">
+        <div class="score-item">
+            <span>Apples Eaten: </span><span id="apples-eaten">0</span>
+        </div>
+        <div class="score-item">
+            <span>Total Wins: </span><span id="total-wins">0</span>
+        </div>
+        <div class="score-item">
+            <span>High Score: </span><span id="high-score">0</span>
+        </div>
+    </div>
+
+    <div id="game-board"></div>
+
+    <div id="refresh-container">
+        <button id="refresh-btn" onclick="window.location.reload()">Restart Game</button>
+    </div>
+
+    <script src="../Davi/js/Davi.js"></script>
+</body>
+
+</html>

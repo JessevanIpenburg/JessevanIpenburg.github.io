@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+
+        background-size: cover;
+    text-align: center;
+    background-color: #f0f0f0;
+    background-image: url(/Jesse/img/Backgroundmario.jpg);
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+.game-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.game-card {
+    border: 2px solid #803d0e;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color: #583009;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.game-card a {
+    text-decoration: none;
+    color: #21b42a;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}

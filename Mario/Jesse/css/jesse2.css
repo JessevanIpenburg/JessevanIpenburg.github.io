@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/Jesse/img/MarioGrass.jpg);
+    height: 100vh;
+}
+
+section {
+    text-align: center;
+}
+
+.grass {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game-title {
+    font-size: 50px;
+    color: #ab0c0c;
+    margin: 50px auto;
+    opacity: .8;
+    height: 25px;
+}
+
+.game-box {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #3a3c3e;
+    color: #04c0b2;
+
+}
+
+.game--status {
+    font-size: 50px;
+    color: #000000;
+    margin: 20px auto;
+}
+
+.game--restart {
+    width: 200px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 25px;
+    color: #000000;
+
+}
+
+.game--restart:hover {
+    background-color: #13b82e;
+}
+
+.player-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+    user-select: none;
+}
+
+.scoreboard {
+    font-size: 20px;
+    color: #000000;
+    margin: 20px auto;
+    text-align: left;
+    background-color: gainsboro; /* test */
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 60px;
+    
+}
+
+.scoreboard p {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.nav-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #269339;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-button:hover {
+    background-color: #1e912a;
+}
